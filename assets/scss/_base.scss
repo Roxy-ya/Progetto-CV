@@ -1,0 +1,67 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  background-color: $color-bg;
+  color: $color-text;
+  line-height: 1.65;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: $color-primary;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+a:hover {
+  color: $color-primary-dark;
+}
+
+.section-space {
+  padding: $spacing-section 0;
+}
+
+.section-heading {
+  margin-bottom: 2.5rem;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    letter-spacing: -0.02em;
+  }
+
+  p {
+    margin: 0;
+    max-width: 700px;
+    color: $color-text-muted;
+  }
+}
+
+.section-eyebrow,
+.section-kicker {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $color-primary;
+}
+
+.text-block p {
+  margin-bottom: 1.25rem;
+  color: $color-text-muted;
+  font-size: 1.05rem;
+}
+
+.text-highlight {
+  color: $color-text;
+  font-weight: 500;
+}

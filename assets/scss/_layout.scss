@@ -1,0 +1,59 @@
+.container {
+  max-width: $max-width-content;
+}
+
+.custom-navbar {
+  background: rgba(250, 251, 250, 0.88);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(230, 234, 231, 0.9);
+}
+
+.navbar-brand.brand-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-weight: 800;
+  color: $color-text;
+}
+
+.brand-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: $color-primary;
+  display: inline-block;
+}
+
+.navbar-nav .nav-link {
+  color: $color-text;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+  color: $color-primary;
+}
+
+.site-footer {
+  border-top: 1px solid $color-border;
+  background-color: $color-surface;
+  padding: 1.5rem 0;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+
+  p {
+    margin: 0;
+    color: $color-text-muted;
+  }
+}
+
+.footer-links {
+  display: flex;
+  gap: 1.25rem;
+}
