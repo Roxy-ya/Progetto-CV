@@ -20,3 +20,19 @@ $radius-lg: 24px;
 
 $spacing-section: 96px;
 $max-width-content: 1200px;
+
+$color-primary-hover: lighten($color-primary, 5%);
+$color-primary-focus: rgba(31, 111, 95, 0.18);
+
+$color-border-soft: rgba(21, 32, 43, 0.06);
+
+$color-bg-soft: rgba(250, 251, 250, 0.8);
+$color-surface-soft: rgba(255, 255, 255, 0.92);
+$overlay-light: rgba(21, 32, 43, 0.04);
+
+$transition-base: 0.25s ease;
+$transition-fast: 0.15s ease;
+
+$z-navbar: 1000;
+$z-overlay: 900;
+$z-dropdown: 1100;
